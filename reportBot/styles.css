@@ -1,0 +1,47 @@
+body {
+    background-image: url("wallpapper.jpg");
+}
+.div_primario {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0); 
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+}
+.center {
+    text-align: center;
+}
+.center_button {
+    justify-content: center;
+}
+.titulo {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: 700 !important;
+}
+.letra {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+}
+a{
+	color:rgb(9, 165, 9) !important;
+      transition: all 0.3s ease-in;
+      text-decoration:none;
+}
+
+a:hover{
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 1px 3px rgb(0, 212, 71);
+}
+.justify-right {
+    justify-content: right !important;
+    text-align: right !important;
+    
+}
+.white-text {
+    color: white !important;
+}
